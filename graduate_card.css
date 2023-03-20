@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:"Futura PT",sans-serif;
+}
+
+body{
+  font-family: "Futura PT",sans-serif;
+}
+
+.container{
+  max-width: 1440px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+#user_info{
+  background-color: #003C66;
+  max-width: 100%;
+  border-radius: 15px;
+  text-align: start;
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  line-height:normal;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.col-9{
+  max-width:1140px;
+}
+
+.social{
+  position:absolute;
+  right:0;
+  width:40px;
+  padding: 7px;
+  height: 200px;
+  bottom: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom-left-radius: 15px;
+  box-shadow: 0 2px 4px 0  #E5E5E5;
+}
+
+.placing{
+  display: flex;
+  align-items:flex-start;
+  font-size: 18px;
+  text-indent: 6px;
+}
+
+.photo{
+  border-radius: 50%;
+  border: 2px solid white;
+  max-width: 60%;
+  margin-bottom: 20px;
+}
+
+.photo-user{
+  text-align: center;
+}
+
+.oferta{
+  width: 100%;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15px;
+}
+
+.progres{
+  width: 100%;
+  height: 100px;
+  background: #FFFFFF;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+  padding-top: 30px;
+  margin-left: 45px;
+}
+
+.context{
+  padding-top: 30px;
+}
+.nav-pills{
+  display: flex;
+  justify-content:space-between;
+}
+
+.logo{
+  text-align: right;
+  max-width: 95%;
+}
+
+#pills-tab{
+  background: #FFFFFF;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+}
+
+#pills-diplom{
+  text-align: center;
+}
+.tab-pane{
+  padding: 15px;
+}
+.tab-content{
+  background: #FFFFFF;
+  box-shadow: 2px 8px 30px rgba(210, 216, 233, 0.5);
+  border-radius: 10px;
+}
+
+.course{
+  background: #FFFFFF;
+  box-shadow: 2px 8px 30px #D2D8E9;
+  border-radius: 10px;
+  max-width: 504px;
+  margin-left: 30px;
+}
+
+.name{
+  display: flex;
+  align-items:flex-start;
+  justify-content:space-around;
+  font-size: 24px;
+  color: #0971E6;
+}
+
+.upper{
+  padding: 20px;
+}
+
+.bottom{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color: #003C66;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 16px;
+  color: white;
+  height: 40px;
+}
+
+#line{
+  border: 2px solid #0971E6;
+  width: 85%;
+  margin-top: 16px;
+}
+
+a:link, a:hover{
+  display: inline-block;
+  text-decoration: none;
+  color: #135BAB;
+  height: 30px;
+  background: #EDF3FC;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.color{
+  color: #7AF7D9;
+}
+
+::marker{
+  color: #7AF7D9;
+}
+
+img{
+  color:white;
+}
+
+li{
+  font-size: 18px;
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+  .oferta{
+    margin-left: 5px;
+  }
+  .progres{
+    margin-left: 20px;
+  }
+
+}
+@media screen and (min-width:776px) and (max-width:992px) {
+  .oferta{
+    margin-left: 0px;
+    margin-bottom:30px;
+  }
+  .progres{
+    margin-left: 0px;
+  }
+  .nav-item{
+    width: 100%;
+  }
+  .nav-link{
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width :765px) {
+  .oferta{
+    margin-left: 0px;
+    margin-bottom:30px;
+  }
+  .progres{
+    margin-left: 0px;
+  }
+  #user_info{
+    margin-bottom: 30px;
+  }
+  .nav-item{
+    width: 100%;
+  }
+  .nav-link{
+    width: 100%;
+  }
+
+}
